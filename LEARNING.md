@@ -17,3 +17,20 @@ For your project:
 Since you're using TypeScript, you'll write import/export syntax in your .ts files regardless. TypeScript will compile it to either ESM or CommonJS based on your tsconfig.json settings.
 
 Recommendation: Use "type": "module" for modern Node.js (it's the future) and configure your tsconfig.json accordingly.
+
+---
+
+TS is superset of JS -> at compile TS enforces type safety and converts files to JS then executes
+
+ONLY COMPILE CHECKS, NO RUNTIME CHECKS
+
+1. Parse into Abstract Syntax Tree which structures code in way compiler can understand
+2. Type checking
+3. Generate JS files
+4. Bundle
+5. Execution
+
+---
+
+QUESTIONS:
+-What are the differences between modules?
