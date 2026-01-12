@@ -1,0 +1,40 @@
+{
+  "name": "acsm-prep",
+  "version": "1.0.0",
+  "description": "prep for an upcoming work trial",
+  "keywords": [
+    "mcp",
+    "code",
+    "analysis",
+    "cybersecurity"
+  ],
+  "homepage": "https://github.com/jaylocks7/acsm-prep#readme",
+  "bugs": {
+    "url": "https://github.com/jaylocks7/acsm-prep/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaylocks7/acsm-prep.git"
+  },
+  "license": "ISC",
+  "author": {
+    "name": "Jay Locks"
+  },
+  "type": "module",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "test",
+    "build": "tsc",
+    "lint": "tslint -c tslint.json src/**/*.ts",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "tslint": "^5.20.1",
+    "typescript": "^5.9.3"
+  },
+  "files": [
+    "./bin/*",
+    "./lib/*"
+  ],
+  "typings": "./lib/index.d.ts"
+}
