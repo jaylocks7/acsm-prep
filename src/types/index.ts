@@ -31,3 +31,10 @@ export interface ErrorResponse {
     location: string;
   }>;
 }
+
+export interface StoredAnalysis {
+  id: number;
+  filePath: string;
+  result: string;
+  createdAt: string;
+}
